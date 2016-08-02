@@ -1,0 +1,19 @@
+{
+  "name": "video-loadbalancer",
+  "version": "0.1.0",
+  "description": "A simple round robin load balancer to backend video servers.",
+  "author": "Betselot Hailu betselot@student.chalmers.se",
+  "main": "./index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "dependencies": {
+    "httpdispatcher": "^1.0.0",
+    "request-promise": "^3.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "should": "^9.0.0",
+    "supertest": "^1.2.0"
+  }
+}
